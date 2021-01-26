@@ -25,7 +25,7 @@
 
 	include 'baglan.php';
 	$sql="SELECT * FROM genelogrtbl";
-	 $db=new PDO("mysql:host=localhost;dbname=giris;charset=utf8",'admin','furkanaytuncihat');
+	$db=new PDO("mysql:host=127.0.0.1;dbname=giris;charset=utf8",'root','');
 
 	$genelogrtbl =$db->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 

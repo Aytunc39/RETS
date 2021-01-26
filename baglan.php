@@ -4,7 +4,7 @@ if($_POST)
 {
 try {
 
-  $db=new PDO("mysql:host=localhost;dbname=giris;charset=utf8",'admin','furkanaytuncihat');
+  $db=new PDO("mysql:host=127.0.0.1;dbname=giris;charset=utf8",'root','');
 }
 
 catch (PDOExpception $e) {
