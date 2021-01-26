@@ -34,11 +34,11 @@ include "yakala.php";
 <div class="sayfa">
     <div class="sliderKonum">
         <div class="slider">
-            <a class="img-bir" href="logo.png" >
-                <img src="logo.png" alt="resim" width="700" height="370">
+            <a class="img-bir" href="img/logo.png" >
+                <img src="img/logo.png" alt="resim" width="700" height="370">
             </a>
-            <a class="img-iki" href="bilgi.png">
-                <img src="bilgi.png" alt="resim" width="680" height="370">
+            <a class="img-iki" href="img/bilgi.png">
+                <img src="img/bilgi.png" alt="resim" width="680" height="370">
             </a>
 
         </div>
@@ -51,7 +51,7 @@ include "yakala.php";
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.html"> <img src="logo.png" width="50" height="30" >
+      <a class="navbar-brand" href="index.html"> <img src="img/logo.png" width="50" height="30" >
 </a>
     </div>
     
